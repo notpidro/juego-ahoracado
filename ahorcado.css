@@ -1,0 +1,99 @@
+body {
+    background: #3626A7;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    max-height: 100%;
+}
+
+header {
+    font-size: 4vh;
+    background: #657ED4;
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main img {
+    padding-top: 10px;
+    width: 100px;
+}
+
+.ingresoDeTexto {
+    padding-top: 2em;
+}
+
+.ingresoDeTexto p {
+    margin: 2px;
+}
+
+.enviarIngresoDeLetra {
+    background: #8C6CA7;
+    border: 0;
+    color: #FBFBFF;
+    width: 100px;
+    height: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.enviarIngresoDeLetra:hover {
+    filter: brightness(0.8);
+}
+
+#resetear {
+    background: #8C6CA7;
+    border: 0;
+    color: #FBFBFF;
+    width: 100px;
+    height: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resetear:hover {
+    filter: brightness(0.8);
+}
+
+footer {
+    background: #221457;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer a:visited {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+.caja-links {
+    width: 100px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+footer img:hover {
+    filter: brightness(8);
+}
+
+.caja-links img {
+    width: 25px;
+    height: 25px;
+}

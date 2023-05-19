@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="ahorcado.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Juego del ahorcado - by Walter F. Campillay P.</title>
+</head>
+<body>
+    <header>
+            <h1>- Juego del ahorcado -</h1>
+    </header>
+    <main>
+        <img src="imagenes/ahorcado.png" alt="Imagen Juego Ahorcado">
+        <p class="palabra"></p>
+        <p class="ultimoResultado"></p>
+
+        <div class="ingresoDeTexto">
+            <p>Ingrese letra:</p>
+            <input type="text" required maxlength="1" class="ingresoDeLetra">
+            <input type="submit" value="Ingresar" class="enviarIngresoDeLetra">
+        </div>
+
+        <div>
+            <p class="intentosFallidos"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy Copyright Walter F. Campillay P.</p>
+        <div class="caja-links">
+            <a href="https://www.linkedin.com/in/walter-campillay/" target="_blank"><img src="imagenes/linkedin-in.svg" alt="Perfil LinkedIn Walter"></a>
+            <a href="https://github.com/notpidro" target="_blank"><img src="imagenes/github.svg" alt="Perfil GitHub Walter"></a>
+            <a href="https://app.aluracursos.com/user/walter-campillay" target="_blank"><img src="imagenes/a-alura.svg" alt="Perfil alura Walter"></a>
+        </div>
+    </footer>
+</body>
+<script src="ahorcado.js"></script>
+</html>
+
